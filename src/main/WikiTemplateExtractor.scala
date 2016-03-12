@@ -1,5 +1,7 @@
 package main
 
+import com.hp.hpl.jena.rdf.model.ModelFactory
+
 import scala.io.{BufferedSource, Source}
 import org.json4s._
 import org.json4s.native.JsonMethods._
@@ -54,6 +56,13 @@ object WikiTemplateExtractor {
     val conn = "http://dbpedia.org/ontology:careerStation"
     val to = "<"+prefix+"/"+player+"__"+ careerStationIndex + ">"
     println(from + " "+ conn + to)
+    val model = ModelFactory.createDefaultModel();
+    val playerRes = model.getResource("http://it.dbpedia.org/resource/Aad_Bak")
+    val prop = model.createProperty("myProp")
+    playerRes.addProperty(prop, "subj")
+    //var newpl = model.createResource("http://it.dbpedia.org/resource/Aad_Bak")
+    model.write(System.out, )
+    var sdf=""
   }
 
   def GetTypeOfString(string:String):Int = {
