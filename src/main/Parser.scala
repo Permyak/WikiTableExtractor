@@ -1,8 +1,6 @@
 package main.parser
 
-import main.WikiTemplateExtractor
 import main.loader.{JSONpediaLoader, DBpediaLoader}
-import main.ontology.Ontology
 import main.WikiTemplateExtractor.ontology
 
 import org.json4s._
@@ -26,7 +24,7 @@ object Parser {
     val playerCareer = JSONpediaLoader.GetDataForPlayer(playerName, filter).mkString
     val jsonPlayerCareer = parse(playerCareer) \\ "result"
 
-    if (jsonPlayerCareer.children.size > 0) {
+    if (jsonPlayerCareer.children.nonEmpty) {
       jsonPlayerCareer(0).children.foreach(x => getTypeOfJsonElement(x, playerName))
     }
   }
@@ -50,7 +48,7 @@ object Parser {
                     ?s a <http://dbpedia.org/ontology/SoccerPlayer>.
                     ?s <http://it.dbpedia.org/property/wikiPageUsesTemplate> $templateURI}"""
     val JSON = DBpediaLoader.GetDBpediaSparqlSelect(select)
-    return JSON.mkString
+    JSON.mkString
   }
 
   def AddPlayerStationToGraph(player:String, careerStationIndex:Int) = {
@@ -64,18 +62,15 @@ object Parser {
       case testRegex() => AddPlayerStationToGraph(playerName, 1)
       case _ => println("_" + string)
     }
-    return resultType
+    resultType
   }
 
   def GetTypeOfList(list:List[(String, JValue)], playerName:String):Int = {
-    list.foreach(element => {
-      element match {
-        case ("name", x) => GetTypeOfString(x.toString, playerName)
-        case _ =>
-      }
-    })
-
-    return 0
+    list.foreach {
+      case ("name", x) => GetTypeOfString(x.toString, playerName)
+      case _ =>
+    }
+    0
   }
 
   def getTypeOfJsonElement(element: JValue, playerName:String) = {

@@ -4,8 +4,6 @@ import main.logger.Logger
 import main.ontology.Ontology
 import main.parser._
 
-import scala.io.{BufferedSource, Source}
-
 object WikiTemplateExtractor extends Logger {
   val nameSpace = "http://dbpedia.org/ontology"
   val resoursePrefix = "http://it.dbpedia.org/resource/"
@@ -20,6 +18,6 @@ object WikiTemplateExtractor extends Logger {
 
     (3 to max by limit) foreach (Parser.ParseDataForPlayersWithIndexes(_, limit, template))
 
-    ontology.WriteToFile("idealSample.ttl")
+    ontology.WriteToFile("graph.ttl")
   }
 }
