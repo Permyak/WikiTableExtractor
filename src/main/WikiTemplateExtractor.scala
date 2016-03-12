@@ -1,12 +1,19 @@
 package main
 
-import com.hp.hpl.jena.rdf.model.ModelFactory
+import com.hp.hpl.jena.rdf.model.{Model, ModelFactory, Resource}
+import com.hp.hpl.jena.vocabulary.VCARD
+import com.uncarved.helpers.LogHelper
+import main.ontology.Ontology
+import org.apache.jena.riot.Lang
+import org.apache.jena.riot.system.StreamRDFWriter
+import org.apache.log4j.BasicConfigurator
 
 import scala.io.{BufferedSource, Source}
 import org.json4s._
 import org.json4s.native.JsonMethods._
 
-object WikiTemplateExtractor {
+object WikiTemplateExtractor extends LogHelper {
+  val ontology = new Ontology("http://dbpedia.org/ontology", "http://it.dbpedia.org/resource/")
 
   def GetDBpediaSparqlSelect(query:String):BufferedSource = {
     val encodedQuery = java.net.URLEncoder.encode(query, "utf-8")
@@ -56,13 +63,7 @@ object WikiTemplateExtractor {
     val conn = "http://dbpedia.org/ontology:careerStation"
     val to = "<"+prefix+"/"+player+"__"+ careerStationIndex + ">"
     println(from + " "+ conn + to)
-    val model = ModelFactory.createDefaultModel();
-    val playerRes = model.getResource("http://it.dbpedia.org/resource/Aad_Bak")
-    val prop = model.createProperty("myProp")
-    playerRes.addProperty(prop, "subj")
-    //var newpl = model.createResource("http://it.dbpedia.org/resource/Aad_Bak")
-    model.write(System.out, )
-    var sdf=""
+    ontology.AddProperty(player)
   }
 
   def GetTypeOfString(string:String):Int = {
@@ -107,7 +108,9 @@ object WikiTemplateExtractor {
     val jsonPlayerCareer = parse(playerCareer) \\ "result"
     println("ll "+jsonPlayerCareer)
 
-    jsonPlayerCareer(0).children.foreach(x => getTypeOfJsonElement(x))
+    if (jsonPlayerCareer.children.size > 0) {
+      jsonPlayerCareer(0).children.foreach(x => getTypeOfJsonElement(x))
+    }
   }
 
 
@@ -120,5 +123,6 @@ object WikiTemplateExtractor {
 
     (3 to max by limit) foreach (ParseDataForPlayersWithIndexes(_, limit, template))
 
+    ontology.WriteToFile("graph.ttl")
   }
 }
