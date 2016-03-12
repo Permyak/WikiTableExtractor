@@ -7,8 +7,9 @@ import main.parser._
 import scala.io.{BufferedSource, Source}
 
 object WikiTemplateExtractor extends Logger {
-  val ontology = new Ontology("http://dbpedia.org/ontology", "http://it.dbpedia.org/resource/")
-
+  val nameSpace = "http://dbpedia.org/ontology"
+  val resoursePrefix = "http://it.dbpedia.org/resource/"
+  val ontology = new Ontology(nameSpace, resoursePrefix)
 
   def main(args: Array[String]): Unit = {
     val template = "<http://it.dbpedia.org/resource/Template:Sportivo>"

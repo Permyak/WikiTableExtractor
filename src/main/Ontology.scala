@@ -1,31 +1,40 @@
 package main.ontology
 
-import java.io.FileOutputStream
+import java.io.{FileOutputStream, BufferedReader, FileReader, FileInputStream}
+import java.nio.file.{Files, Paths}
 
 import com.hp.hpl.jena.rdf.model.{ResourceFactory, Property, ModelFactory}
-import com.hp.hpl.jena.vocabulary.VCARD
-import com.uncarved.helpers.LogHelper
-import org.apache.jena.riot.Lang
+import org.apache.jena.riot.lang.{PipedRDFIterator, PipedTriplesStream}
+import org.apache.jena.riot.{RDFDataMgr, Lang}
 import org.apache.jena.riot.system.StreamRDFWriter
 
 class Ontology(namespace:String, resoursePrefix:String){
 
+  def Namespace = namespace
+  def ResoursePrefix = resoursePrefix
   // create an empty Model
   var model = ModelFactory.createDefaultModel();
 
-  def AddProperty(playerName:String) = {
-    val conn = "http://dbpedia.org/ontology:careerStation"
-    var personURI    = "http://somewhere/JohnSmith";
+  def AddProperty(fromResourse:String, property:String, toResourse:String) = {
+
     var fullName     = "John Smith";
 
-    // create the resource
-    var johnSmith = model.getResource(resoursePrefix + playerName)
-    var prop = model.getProperty(conn)
-    // add the property
-    johnSmith.addProperty(prop, fullName);
+    var playerOntologyResourse = model.getResource(resoursePrefix + fromResourse)
+    var playerOntologyResourse2 = model.getResource(resoursePrefix + toResourse)
+
+    var prop = model.getProperty(s"$namespace:$property")
+    model.createStatement(playerOntologyResourse, prop, playerOntologyResourse2+"sad")
+    playerOntologyResourse.addProperty(prop, fullName);
+    playerOntologyResourse.addProperty(prop, playerOntologyResourse2)
   }
 
   def WriteToFile(fileName:String) ={
     StreamRDFWriter.write(System.out, model.getGraph, Lang.TURTLE)
-  } ;
+  }
+
+  def LoadFile()={
+    model.read(new FileInputStream("/Users/apechenezhskiy/Downloads/soccer_2015_11_22.ttl"),null, "TURTLE")
+    StreamRDFWriter.write(new FileOutputStream("graph.ttl"), model.getGraph, Lang.TURTLE)
+  }
+
 }

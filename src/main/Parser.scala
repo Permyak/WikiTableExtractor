@@ -1,5 +1,6 @@
 package main.parser
 
+import main.WikiTemplateExtractor
 import main.loader.{JSONpediaLoader, DBpediaLoader}
 import main.ontology.Ontology
 import main.WikiTemplateExtractor.ontology
@@ -15,20 +16,18 @@ object Parser {
   }
 
   def GetPlayerNameFromResourseUrl(resourceUrl:String):String = {
-    resourceUrl.replace("http://it.dbpedia.org/resource/", "")
+    resourceUrl.replace(ontology.ResoursePrefix, "")
   }
 
   def ParseDataForPlayer(playerResourse:JValue) = {
     implicit val formats = DefaultFormats
     val filter = "SquadreGiovanili>content"
-    val playerCareer = JSONpediaLoader.GetDataForPlayer(GetPlayerNameFromResourseUrl(playerResourse.extract[String]), filter).mkString
-    println(playerCareer)
-
+    val playerName = GetPlayerNameFromResourseUrl(playerResourse.extract[String])
+    val playerCareer = JSONpediaLoader.GetDataForPlayer(playerName, filter).mkString
     val jsonPlayerCareer = parse(playerCareer) \\ "result"
-    println("ll "+jsonPlayerCareer)
 
     if (jsonPlayerCareer.children.size > 0) {
-      jsonPlayerCareer(0).children.foreach(x => getTypeOfJsonElement(x))
+      jsonPlayerCareer(0).children.foreach(x => getTypeOfJsonElement(x, playerName))
     }
   }
 
@@ -55,29 +54,23 @@ object Parser {
   }
 
   def AddPlayerStationToGraph(player:String, careerStationIndex:Int) = {
-    var prefix= "http://dbpedia.org/resource"
-    val from = "<"+prefix+"/"+player+">"
-    val conn = "http://dbpedia.org/ontology:careerStation"
-    val to = "<"+prefix+"/"+player+"__"+ careerStationIndex + ">"
-    println(from + " "+ conn + to)
-    ontology.AddProperty(player)
+    ontology.AddProperty(player, "careerStation", player+"__")
   }
 
-  def GetTypeOfString(string:String):Int = {
+  def GetTypeOfString(string:String, playerName:String):Int = {
     val testRegex = """^\s*\d{4}(?:\s*-\s*\d{4})?\s*$""".r
     var resultType = 0
     string match {
-      case testRegex() => AddPlayerStationToGraph(player = "myPl", 1)
+      case testRegex() => AddPlayerStationToGraph(playerName, 1)
       case _ => println("_" + string)
     }
     return resultType
   }
 
-  def GetTypeOfList(list:List[(String, JValue)]):Int = {
+  def GetTypeOfList(list:List[(String, JValue)], playerName:String):Int = {
     list.foreach(element => {
-      println(element)
       element match {
-        case ("name", x) => GetTypeOfString(x.toString)
+        case ("name", x) => GetTypeOfString(x.toString, playerName)
         case _ =>
       }
     })
@@ -85,12 +78,11 @@ object Parser {
     return 0
   }
 
-  def getTypeOfJsonElement(element: JValue) = {
-    println("find type for " + element)
+  def getTypeOfJsonElement(element: JValue, playerName:String) = {
     var elementType = 0
     element.children match {
-      case List(JString(x)) => elementType = GetTypeOfString(x)
-      case List(JObject(x)) => elementType = GetTypeOfList(x)
+      case List(JString(x)) => elementType = GetTypeOfString(x, playerName)
+      case List(JObject(x)) => elementType = GetTypeOfList(x, playerName)
       case _ =>
     }
     elementType == 1
