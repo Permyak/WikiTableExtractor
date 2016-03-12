@@ -1,7 +1,5 @@
 package main
 
-import org.json4s
-
 import scala.io.{BufferedSource, Source}
 import org.json4s._
 import org.json4s.native.JsonMethods._
@@ -9,8 +7,14 @@ import org.json4s.native.JsonMethods._
 object WikiTemplateExtractor {
 
   def GetDBpediaSparqlSelect(query:String):BufferedSource = {
-    val encodedQuery= java.net.URLEncoder.encode(query, "utf-8")
+    val encodedQuery = java.net.URLEncoder.encode(query, "utf-8")
     return Source.fromURL(s"http://it.dbpedia.org/sparql?&query=$encodedQuery&format=json")
+  }
+
+  def GetDataForPlayer(playerName: String, filter:String):BufferedSource = {
+    val encodedPlayerName = java.net.URLEncoder.encode(playerName, "utf-8")
+    val encodedFilter = java.net.URLEncoder.encode(filter, "utf-8")
+    return Source.fromURL(s"http://jsonpedia.org/annotate/resource/json/it:$encodedPlayerName?filter=$encodedFilter&procs=-Extractors,Structure")
   }
 
   def GetPlayersCountFromJSON(JSON:String):Int = {
@@ -40,20 +44,72 @@ object WikiTemplateExtractor {
     playersURI.children.foreach(ParseDataForPlayer(_))
   }
 
+  def GetPlayerNameFromResourseUrl(resourceUrl:String):String = {
+    resourceUrl.replace("http://it.dbpedia.org/resource/", "")
+  }
+
+  def AddPlayerStationToGraph(player:String, careerStationIndex:Int) = {
+    var prefix= "http://dbpedia.org/resource"
+    val from = "<"+prefix+"/"+player+">"
+    val conn = "http://dbpedia.org/ontology:careerStation"
+    val to = "<"+prefix+"/"+player+"__"+ careerStationIndex + ">"
+    println(from + " "+ conn + to)
+  }
+
+  def GetTypeOfString(string:String):Int = {
+    val testRegex = """^\s*\d{4}(?:\s*-\s*\d{4})?\s*$""".r
+    var resultType = 0
+    string match {
+      case testRegex() => AddPlayerStationToGraph(player = "myPl", 1)
+      case _ => println("_" + string)
+    }
+    return resultType
+  }
+
+  def GetTypeOfList(list:List[(String, JValue)]):Int = {
+    list.foreach(element => {
+      println(element)
+      element match {
+        case ("name", x) => GetTypeOfString(x.toString)
+        case _ =>
+      }
+    })
+
+    return 0
+  }
+
+  def getTypeOfJsonElement(element: JValue) = {
+    println("find type for " + element)
+    var elementType = 0
+    element.children match {
+      case List(JString(x)) => elementType = GetTypeOfString(x)
+      case List(JObject(x)) => elementType = GetTypeOfList(x)
+      case _ =>
+    }
+    elementType == 1
+  }
+
   def ParseDataForPlayer(playerResourse:JValue) = {
     implicit val formats = DefaultFormats
-    println(playerResourse.extract[String])
+    val filter = "SquadreGiovanili>content"
+    val playerCareer = GetDataForPlayer(GetPlayerNameFromResourseUrl(playerResourse.extract[String]), filter).mkString
+    println(playerCareer)
+
+    val jsonPlayerCareer = parse(playerCareer) \\ "result"
+    println("ll "+jsonPlayerCareer)
+
+    jsonPlayerCareer(0).children.foreach(x => getTypeOfJsonElement(x))
   }
 
 
   def main(args: Array[String]): Unit = {
     val template = "<http://it.dbpedia.org/resource/Template:Sportivo>"
-    val playersForTemplateCount = GetPlayersCountFromJSON(GetPlayersCountForTemplate(template))
+    //val playersForTemplateCount = GetPlayersCountFromJSON(GetPlayersCountForTemplate(template))
 
-    val max = 10 - 1
-    val limit = 5
+    val max = 4 - 1
+    val limit = 2
 
-    (0 to max by limit) foreach (ParseDataForPlayersWithIndexes(_, limit, template))
+    (3 to max by limit) foreach (ParseDataForPlayersWithIndexes(_, limit, template))
 
   }
 }
