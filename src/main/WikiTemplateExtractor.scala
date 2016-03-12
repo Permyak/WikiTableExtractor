@@ -20,6 +20,6 @@ object WikiTemplateExtractor extends Logger {
 
     (3 to max by limit) foreach (Parser.ParseDataForPlayersWithIndexes(_, limit, template))
 
-    ontology.WriteToFile("graph.ttl")
+    ontology.WriteToFile("idealSample.ttl")
   }
 }
