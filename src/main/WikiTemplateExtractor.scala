@@ -13,10 +13,10 @@ object WikiTemplateExtractor extends Logger {
     val template = "<http://it.dbpedia.org/resource/Template:Sportivo>"
     val playersForTemplateCount = Parser.GetPlayersCountFromJSON(Parser.GetPlayersCountForTemplate(template))
 
-    val max = 4 - 1
-    val limit = 2
+    val max =20
+    val limit = 10
 
-    (3 to max by limit) foreach (Parser.ParseDataForPlayersWithIndexes(_, limit, template))
+    (0 to max by limit) foreach (fromIndex => Parser.ParseDataForPlayersWithIndexes(fromIndex, limit, max, template))
 
     ontology.WriteToFile("graph.ttl")
   }

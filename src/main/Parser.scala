@@ -1,12 +1,21 @@
 package main.parser
 
+import com.hp.hpl.jena.datatypes.xsd.XSDDatatype
 import main.loader.{JSONpediaLoader, DBpediaLoader}
 import main.WikiTemplateExtractor.ontology
+import main.logger.Logger
 
 import org.json4s._
 import org.json4s.native.JsonMethods._
 
-object Parser {
+object Parser extends Logger{
+
+  var CareerStationCountForCurrentPlayer = 0
+
+  val AnyYearRegex = """^\s*\d{4}(?:\s*-\s*\d{4})?\s*$""".r
+  val StartAndEndYearRegex = """^(\d{4})-(\d{4})$""".r
+  val StartWithoutEndYearRegex = """^(\d{4})-\s*$""".r
+  val OnlyStartYearRegex = """^(\d{4})$""".r
 
   def GetPlayersCountFromJSON(JSON:String):Int = {
     implicit val formats = DefaultFormats
@@ -17,11 +26,11 @@ object Parser {
     resourceUrl.replace(ontology.ResoursePrefix, "")
   }
 
-  def ParseDataForPlayer(playerResourse:JValue) = {
+  def ParsePlayersCareerStationWithFilter(playerResource:JValue, filter:String): Unit ={
     implicit val formats = DefaultFormats
-    val filter = "SquadreGiovanili>content"
-    val playerName = GetPlayerNameFromResourseUrl(playerResourse.extract[String])
+    val playerName = GetPlayerNameFromResourseUrl(playerResource.extract[String])
     val playerCareer = JSONpediaLoader.GetDataForPlayer(playerName, filter).mkString
+
     val jsonPlayerCareer = parse(playerCareer) \\ "result"
 
     if (jsonPlayerCareer.children.nonEmpty) {
@@ -29,14 +38,26 @@ object Parser {
     }
   }
 
-  def ParseDataForPlayersWithIndexes(fromIndex:Int, limit:Int, templateURI:String) = {
+  def ParseDataForPlayer(playerResource:JValue) = {
+    println("Player " + playerResource + " are parsing.")
+    CareerStationCountForCurrentPlayer = 0
+    ParsePlayersCareerStationWithFilter(playerResource, "SquadreGiovanili>content")
+    ParsePlayersCareerStationWithFilter(playerResource, "Squadre>content")
+    ParsePlayersCareerStationWithFilter(playerResource, "SquadreNazionali>content")
+  }
+
+  def ParseDataForPlayersWithIndexes(fromIndex:Int, limit:Int, max:Int, templateURI:String) = {
+    var boundedLimit = limit
+    if (fromIndex + limit > max){
+      boundedLimit = max - fromIndex
+    }
     val select =s"""select ?s as ?calciatori
                     where{
                       ?s a <http://dbpedia.org/ontology/SoccerPlayer>.
                       ?s <http://it.dbpedia.org/property/wikiPageUsesTemplate> $templateURI
                     }
                     OFFSET $fromIndex
-                    LIMIT  $limit"""
+                    LIMIT  $boundedLimit"""
     val JSON = DBpediaLoader.GetDBpediaSparqlSelect(select).mkString
     val playersURI = parse(JSON) \\ "value"
     playersURI.children.foreach(ParseDataForPlayer(_))
@@ -51,16 +72,42 @@ object Parser {
     JSON.mkString
   }
 
-  def AddPlayerStationToGraph(player:String, careerStationIndex:Int) = {
-    ontology.AddProperty(player, "careerStation", player+"__")
+  def RemoveWhiteSpacesInString(string:String) = {
+    string.replaceAll("""\s+$""", "")
+  }
+
+  def AddPlayerStationToGraph(player:String) = {
+    val playerStation = player + "__" + CareerStationCountForCurrentPlayer
+    ontology.AddProperty(player, "careerStation", playerStation)
+    CareerStationCountForCurrentPlayer += 1
+    playerStation
+  }
+
+  def AddPlayerStationInfoToGraph(currentPlayerStation:String, yearString:String) = {
+    RemoveWhiteSpacesInString(yearString) match {
+      case StartAndEndYearRegex(startYear, endYear) => {
+        ontology.AddLiteral(currentPlayerStation, "startYear", startYear, XSDDatatype.XSDgYear)
+        ontology.AddLiteral(currentPlayerStation, "endYear", endYear, XSDDatatype.XSDgYear)
+      }
+      case StartWithoutEndYearRegex(startYear) => {
+        ontology.AddLiteral(currentPlayerStation, "startYear", startYear, XSDDatatype.XSDgYear)
+      }
+      case OnlyStartYearRegex(year) => {
+        ontology.AddLiteral(currentPlayerStation, "startYear", year, XSDDatatype.XSDgYear)
+        ontology.AddLiteral(currentPlayerStation, "endYear", year, XSDDatatype.XSDgYear)
+      }
+      case _ => logger.warn(s"Can't parse $yearString for $currentPlayerStation")
+    }
   }
 
   def GetTypeOfString(string:String, playerName:String):Int = {
-    val testRegex = """^\s*\d{4}(?:\s*-\s*\d{4})?\s*$""".r
     var resultType = 0
     string match {
-      case testRegex() => AddPlayerStationToGraph(playerName, 1)
-      case _ => println("_" + string)
+      case AnyYearRegex() => {
+        val playerStation = AddPlayerStationToGraph(playerName)
+        AddPlayerStationInfoToGraph(playerStation, string)
+      }
+      case _ =>
     }
     resultType
   }
