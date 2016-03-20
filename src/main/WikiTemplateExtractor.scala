@@ -9,7 +9,7 @@ object WikiTemplateExtractor extends Logger {
   val resoursePrefix = "http://it.dbpedia.org/resource/"
   val ontology = new Ontology(nameSpace, resoursePrefix)
 
-  def main(args: Array[String]): Unit = {
+  def extractSportivoTemplate() = {
     val template = "<http://it.dbpedia.org/resource/Template:Sportivo>"
     val playersForTemplateCount = Parser.GetPlayersCountFromJSON(Parser.GetPlayersCountForTemplate(template))
 
@@ -19,5 +19,9 @@ object WikiTemplateExtractor extends Logger {
     (0 to max by limit) foreach (fromIndex => Parser.ParseDataForPlayersWithIndexes(fromIndex, limit, max, template))
 
     ontology.WriteToFile("graph.ttl")
+  }
+
+  def main(args: Array[String]): Unit = {
+    extractSportivoTemplate();
   }
 }

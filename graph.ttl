@@ -1,201 +1,288 @@
-<http://it.dbpedia.org/resource/František_Plánička>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/František_Plánička__0> .
-
-<http://it.dbpedia.org/resource/Piet_Kraak__0>
-        <http://dbpedia.org/ontology/endYear>  "1953"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1945"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__1>
-        <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Alfréd_Hajós__0>
-        <http://dbpedia.org/ontology/endYear>  "1907"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1897"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Ryan_Giggs__5>
-        <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__12>
-        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__5>
-        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Alex_Ferguson__1>
-        <http://dbpedia.org/ontology/endYear>  "1964"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gianni_Rivera__1>
-        <http://dbpedia.org/ontology/endYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/James_Spensley__0>
-        <http://dbpedia.org/ontology/endYear>  "1906"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1896"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__3>
-        <http://dbpedia.org/ontology/endYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__8> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__7> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__6> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__0> .
-
-<http://it.dbpedia.org/resource/Alfréd_Hajós>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alfréd_Hajós__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alfréd_Hajós__0> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__3>
-        <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__11>
-        <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/David_Beckham__4>
-        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__6>
-        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__3>
-        <http://dbpedia.org/ontology/endYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Zinédine_Zidane__2>
-        <http://dbpedia.org/ontology/endYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Erasmo_Iacovone__0>
-        <http://dbpedia.org/ontology/endYear>  "1972"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Enzo_Bearzot__4>
-        <http://dbpedia.org/ontology/endYear>  "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__0>
-        <http://dbpedia.org/ontology/endYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Ryan_Giggs__4>
-        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__11>
-        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__4>
+<http://it.dbpedia.org/resource/Zinédine_Zidane__4>
         <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__8>
-        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__2>
-        <http://dbpedia.org/ontology/endYear>  "1980"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1979"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Alex_Ferguson__0>
-        <http://dbpedia.org/ontology/endYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/James_Spensley>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/James_Spensley__0> .
-
-<http://it.dbpedia.org/resource/Gianni_Rivera__0>
-        <http://dbpedia.org/ontology/endYear>  "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/David_Beckham__9>
-        <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__2>
-        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__8>
-        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+        <http://dbpedia.org/ontology/startYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Gabriel_Batistuta__2>
         <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Marlon_King__10>
-        <http://dbpedia.org/ontology/endYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Marlon_King__6>
+        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/David_Beckham__3>
-        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gianni_Rivera>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__0> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__2>
-        <http://dbpedia.org/ontology/endYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+<http://it.dbpedia.org/resource/Marcus_Gayle__1>
+        <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Marlon_King__5>
-        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Danny_Graham__0>
+        <http://dbpedia.org/ontology/endYear>  "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Adolfo_Baloncieri__3>
-        <http://dbpedia.org/ontology/endYear>  "1944"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1943"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Enzo_Bearzot__2>
+        <http://dbpedia.org/ontology/endYear>  "1954"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1951"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Zinédine_Zidane__1>
-        <http://dbpedia.org/ontology/endYear>  "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__6>
+        <http://dbpedia.org/ontology/endYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Francisco_Varallo__1>
-        <http://dbpedia.org/ontology/endYear>  "1940"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1931"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/David_Beckham__5>
+        <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__9>
+<http://it.dbpedia.org/resource/Marcus_Gayle__9>
+        <http://dbpedia.org/ontology/endYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__8>
+        <http://dbpedia.org/ontology/endYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/James_Spensley__0>
+        <http://dbpedia.org/ontology/endYear>  "1906"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1896"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Adolfo_Baloncieri__2>
+        <http://dbpedia.org/ontology/endYear>  "1933"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1932"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__15>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__12>
         <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Enzo_Bearzot__3>
-        <http://dbpedia.org/ontology/endYear>  "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+<http://it.dbpedia.org/resource/Danny_Graham__12>
+        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__1>
+        <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Amancio_Amaro_Varela__3>
+        <http://dbpedia.org/ontology/endYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Piet_Kraak__1>
+        <http://dbpedia.org/ontology/endYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1954"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__1>
+        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs__3>
+        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Alex_Ferguson__5>
         <http://dbpedia.org/ontology/endYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Gianni_Rivera__5>
-        <http://dbpedia.org/ontology/endYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+<http://it.dbpedia.org/resource/Erasmo_Iacovone__2>
+        <http://dbpedia.org/ontology/endYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1972"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Alfréd_Hajós__1>
+        <http://dbpedia.org/ontology/endYear>  "1902"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1902"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gianni_Rivera__4>
+        <http://dbpedia.org/ontology/endYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__7>
-        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__0> .
+
+<http://it.dbpedia.org/resource/Danny_Graham>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__0> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__6> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__10> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__9> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__15> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__13> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__14> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__7> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__11> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__8> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__12> .
+
+<http://it.dbpedia.org/resource/David_Beckham__0>
+        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__2>
+        <http://dbpedia.org/ontology/endYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__5>
+        <http://dbpedia.org/ontology/endYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__9>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marcus_Gayle__4>
+        <http://dbpedia.org/ontology/endYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__3>
+        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Enzo_Bearzot__5>
+        <http://dbpedia.org/ontology/endYear>  "1964"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marcus_Gayle>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__6> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__0> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__7> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__9> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__8> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__4> .
+
+<http://it.dbpedia.org/resource/David_Beckham__10>
+        <http://dbpedia.org/ontology/endYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__8>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Zinédine_Zidane>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__0> .
+
+<http://it.dbpedia.org/resource/Alex_Ferguson__0>
+        <http://dbpedia.org/ontology/endYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__0>
+        <http://dbpedia.org/ontology/endYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__15>
+        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__4>
+        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Zinédine_Zidane__2>
+        <http://dbpedia.org/ontology/endYear>  "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Enzo_Bearzot__0>
+        <http://dbpedia.org/ontology/endYear>  "1948"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1946"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__4>
+        <http://dbpedia.org/ontology/endYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs__6>
+        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__7> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__6> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__0> .
+
+<http://it.dbpedia.org/resource/Erasmo_Iacovone__5>
+        <http://dbpedia.org/ontology/endYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Amancio_Amaro_Varela>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Amancio_Amaro_Varela__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Amancio_Amaro_Varela__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Amancio_Amaro_Varela__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Amancio_Amaro_Varela__0> .
+
+<http://it.dbpedia.org/resource/David_Beckham__3>
+        <http://dbpedia.org/ontology/endYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__8>
+        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marcus_Gayle__7>
+        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__6>
+        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/František_Plánička>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/František_Plánička__0> .
+
+<http://it.dbpedia.org/resource/Adolfo_Baloncieri__0>
+        <http://dbpedia.org/ontology/endYear>  "1925"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1919"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__13>
+        <http://dbpedia.org/ontology/endYear>  "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__10>
+        <http://dbpedia.org/ontology/endYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__10>
+        <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Amancio_Amaro_Varela__1>
+        <http://dbpedia.org/ontology/endYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs__1>
+        <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Alex_Ferguson__3>
+        <http://dbpedia.org/ontology/endYear>  "1969"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1967"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Erasmo_Iacovone__0>
+        <http://dbpedia.org/ontology/endYear>  "1972"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1972"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gianni_Rivera__2>
+        <http://dbpedia.org/ontology/endYear>  "1979"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Enzo_Bearzot>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Enzo_Bearzot__6> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Enzo_Bearzot__5> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Enzo_Bearzot__4> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Enzo_Bearzot__3> ;
@@ -203,145 +290,222 @@
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Enzo_Bearzot__1> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Enzo_Bearzot__0> .
 
-<http://it.dbpedia.org/resource/Ryan_Giggs__3>
-        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__0>
+        <http://dbpedia.org/ontology/endYear>  "1970"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1968"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__10>
-        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Marlon_King__7>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__3>
-        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__7>
-        <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__1>
-        <http://dbpedia.org/ontology/endYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Francisco_Varallo>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Francisco_Varallo__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Francisco_Varallo__0> .
-
-<http://it.dbpedia.org/resource/David_Beckham__8>
-        <http://dbpedia.org/ontology/endYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__1>
-        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__7>
-        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__8> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__7> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__6> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marcus_Gayle__0> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__1>
-        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Zinédine_Zidane>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Zinédine_Zidane__0> .
-
-<http://it.dbpedia.org/resource/Erasmo_Iacovone__4>
-        <http://dbpedia.org/ontology/endYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/David_Beckham__2>
-        <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__1>
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__3>
         <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Marlon_King__4>
-        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Adolfo_Baloncieri__2>
-        <http://dbpedia.org/ontology/endYear>  "1933"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1932"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Zinédine_Zidane__0>
-        <http://dbpedia.org/ontology/endYear>  "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Zinédine_Zidane__5>
+        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Francisco_Varallo__0>
         <http://dbpedia.org/ontology/endYear>  "1931"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1928"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__8>
+<http://it.dbpedia.org/resource/Marcus_Gayle__2>
+        <http://dbpedia.org/ontology/endYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__1>
+        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Enzo_Bearzot__3>
+        <http://dbpedia.org/ontology/endYear>  "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1954"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__7>
+        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__6>
+        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__9>
         <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Enzo_Bearzot__2>
-        <http://dbpedia.org/ontology/endYear>  "1954"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1951"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Francisco_Varallo>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Francisco_Varallo__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Francisco_Varallo__0> .
 
-<http://it.dbpedia.org/resource/Alex_Ferguson__4>
-        <http://dbpedia.org/ontology/endYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1969"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gianni_Rivera__4>
-        <http://dbpedia.org/ontology/endYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Adolfo_Baloncieri__3>
+        <http://dbpedia.org/ontology/endYear>  "1944"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1943"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Adolfo_Baloncieri>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Adolfo_Baloncieri__4> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Adolfo_Baloncieri__3> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Adolfo_Baloncieri__2> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Adolfo_Baloncieri__1> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Adolfo_Baloncieri__0> .
 
-<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__0> .
-
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__6>
-        <http://dbpedia.org/ontology/endYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Ryan_Giggs__2>
+<http://it.dbpedia.org/resource/Danny_Graham__13>
         <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__2>
-        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Marlon_King__2>
+        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Zinédine_Zidane__0>
+        <http://dbpedia.org/ontology/endYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__2>
+        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs__4>
+        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Erasmo_Iacovone__3>
+        <http://dbpedia.org/ontology/endYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gianni_Rivera__5>
+        <http://dbpedia.org/ontology/endYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__1>
+        <http://dbpedia.org/ontology/endYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__3>
+        <http://dbpedia.org/ontology/endYear>  "1980"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1979"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Gabriel_Batistuta__6>
         <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__0>
-        <http://dbpedia.org/ontology/endYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Marcus_Gayle__5>
+        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/David_Beckham__7>
-        <http://dbpedia.org/ontology/endYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+<http://it.dbpedia.org/resource/Danny_Graham__4>
+        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Enzo_Bearzot__6>
+        <http://dbpedia.org/ontology/endYear>  "1955"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1955"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__8> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__15> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__7> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__12> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__13> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__14> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__10> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__0> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__9> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__11> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__6> .
+
+<http://it.dbpedia.org/resource/František_Plánička__0>
+        <http://dbpedia.org/ontology/endYear>  "1939"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1923"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__11>
+        <http://dbpedia.org/ontology/endYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__0>
-        <http://dbpedia.org/ontology/endYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/David_Beckham__9>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Alfréd_Hajós>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alfréd_Hajós__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alfréd_Hajós__0> .
+
+<http://it.dbpedia.org/resource/Alex_Ferguson__1>
+        <http://dbpedia.org/ontology/endYear>  "1964"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gianni_Rivera__0>
+        <http://dbpedia.org/ontology/endYear>  "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Zinédine_Zidane__3>
+        <http://dbpedia.org/ontology/endYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__1>
+        <http://dbpedia.org/ontology/endYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__5>
+        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marcus_Gayle__0>
+        <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Enzo_Bearzot__1>
+        <http://dbpedia.org/ontology/endYear>  "1951"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1948"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__5>
+        <http://dbpedia.org/ontology/endYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs__7>
+        <http://dbpedia.org/ontology/endYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__4>
+        <http://dbpedia.org/ontology/endYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__9>
+        <http://dbpedia.org/ontology/endYear>  "2002"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marcus_Gayle__8>
+        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__7>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Adolfo_Baloncieri__1>
+        <http://dbpedia.org/ontology/endYear>  "1932"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1925"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/David_Beckham__14>
+        <http://dbpedia.org/ontology/endYear>  "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__11>
+        <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__11>
+        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__0>
+        <http://dbpedia.org/ontology/endYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Alex_Ferguson>
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alex_Ferguson__5> ;
@@ -351,61 +515,84 @@
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alex_Ferguson__1> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Alex_Ferguson__0> .
 
-<http://it.dbpedia.org/resource/Marlon_King__9>
-        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__6>
-        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__0>
-        <http://dbpedia.org/ontology/endYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Erasmo_Iacovone__3>
-        <http://dbpedia.org/ontology/endYear>  "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/David_Beckham__1>
-        <http://dbpedia.org/ontology/endYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__0>
-        <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__3>
-        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Ryan_Giggs__7>
-        <http://dbpedia.org/ontology/endYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Amancio_Amaro_Varela__1>
+<http://it.dbpedia.org/resource/Amancio_Amaro_Varela__2>
         <http://dbpedia.org/ontology/endYear>  "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Adolfo_Baloncieri__1>
-        <http://dbpedia.org/ontology/endYear>  "1932"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1925"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Piet_Kraak__0>
+        <http://dbpedia.org/ontology/endYear>  "1953"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1945"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__7>
-        <http://dbpedia.org/ontology/endYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__0>
+        <http://dbpedia.org/ontology/endYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Enzo_Bearzot__1>
-        <http://dbpedia.org/ontology/endYear>  "1951"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1948"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Ryan_Giggs__2>
+        <http://dbpedia.org/ontology/endYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Alex_Ferguson__3>
-        <http://dbpedia.org/ontology/endYear>  "1969"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1967"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Alex_Ferguson__4>
+        <http://dbpedia.org/ontology/endYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1969"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Erasmo_Iacovone__1>
+        <http://dbpedia.org/ontology/endYear>  "1972"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Piet_Kraak>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Piet_Kraak__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Piet_Kraak__0> .
+
+<http://it.dbpedia.org/resource/Alfréd_Hajós__0>
+        <http://dbpedia.org/ontology/endYear>  "1907"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1897"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Gianni_Rivera__3>
         <http://dbpedia.org/ontology/endYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Vanderlei_Luxemburgo__1>
+        <http://dbpedia.org/ontology/endYear>  "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__4>
+        <http://dbpedia.org/ontology/endYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__8>
+        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Francisco_Varallo__1>
+        <http://dbpedia.org/ontology/endYear>  "1940"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1931"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marcus_Gayle__3>
+        <http://dbpedia.org/ontology/endYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1994"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__2>
+        <http://dbpedia.org/ontology/endYear>  "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__8> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__7> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__6> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__0> .
+
+<http://it.dbpedia.org/resource/Enzo_Bearzot__4>
+        <http://dbpedia.org/ontology/endYear>  "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__8>
+        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
 <http://it.dbpedia.org/resource/Marlon_King>
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marlon_King__4> ;
@@ -422,193 +609,101 @@
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marlon_King__12> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Marlon_King__0> .
 
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__5>
-        <http://dbpedia.org/ontology/endYear>  "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/David_Beckham__7>
+        <http://dbpedia.org/ontology/endYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Ryan_Giggs__1>
+<http://it.dbpedia.org/resource/Adolfo_Baloncieri__4>
+        <http://dbpedia.org/ontology/endYear>  "1930"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1920"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Danny_Graham__14>
+        <http://dbpedia.org/ontology/endYear>  "2016"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Marlon_King__3>
+        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Zinédine_Zidane__1>
+        <http://dbpedia.org/ontology/endYear>  "1992"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1988"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/James_Spensley>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/James_Spensley__0> .
+
+<http://it.dbpedia.org/resource/Fredrik_Ljungberg__3>
+        <http://dbpedia.org/ontology/endYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+<http://it.dbpedia.org/resource/Ryan_Giggs__5>
         <http://dbpedia.org/ontology/endYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Ryan_Giggs>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__7> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__6> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Ryan_Giggs__0> .
+<http://it.dbpedia.org/resource/Erasmo_Iacovone__4>
+        <http://dbpedia.org/ontology/endYear>  "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__5>
-        <http://dbpedia.org/ontology/endYear>  "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+<http://it.dbpedia.org/resource/David_Beckham__2>
+        <http://dbpedia.org/ontology/endYear>  "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Danny_Graham__1>
-        <http://dbpedia.org/ontology/endYear>  "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Gabriel_Batistuta__7>
+        <http://dbpedia.org/ontology/endYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/David_Beckham>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__8> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__7> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__0> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__9> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/David_Beckham__6> .
+<http://it.dbpedia.org/resource/Gianni_Rivera>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__1> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gianni_Rivera__0> .
 
-<http://it.dbpedia.org/resource/David_Beckham__6>
-        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Marcus_Gayle__6>
+        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Amancio_Amaro_Varela>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Amancio_Amaro_Varela__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Amancio_Amaro_Varela__0> .
+<http://it.dbpedia.org/resource/Danny_Graham__5>
+        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Marlon_King__8>
-        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/David_Beckham__12>
+        <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Marcus_Gayle__5>
-        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Amancio_Amaro_Varela__0>
+        <http://dbpedia.org/ontology/endYear>  "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1954"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Erasmo_Iacovone__2>
-        <http://dbpedia.org/ontology/endYear>  "1974"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Ryan_Giggs__0>
+        <http://dbpedia.org/ontology/endYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1985"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__7> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__6> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Fredrik_Ljungberg__0> .
+<http://it.dbpedia.org/resource/Alex_Ferguson__2>
+        <http://dbpedia.org/ontology/endYear>  "1967"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+        <http://dbpedia.org/ontology/startYear>  "1964"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 
-<http://it.dbpedia.org/resource/David_Beckham__0>
-        <http://dbpedia.org/ontology/endYear>  "1995"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://it.dbpedia.org/resource/Gabriel_Batistuta>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__3> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__5> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__7> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__6> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__0> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__9> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__8> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__2> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__4> ;
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Gabriel_Batistuta__1> .
 
 <http://it.dbpedia.org/resource/Erasmo_Iacovone>
+        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Erasmo_Iacovone__5> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Erasmo_Iacovone__4> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Erasmo_Iacovone__3> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Erasmo_Iacovone__2> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Erasmo_Iacovone__1> ;
         <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Erasmo_Iacovone__0> .
 
-<http://it.dbpedia.org/resource/Marlon_King__2>
-        <http://dbpedia.org/ontology/endYear>  "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Piet_Kraak__1>
+<http://it.dbpedia.org/resource/Gianni_Rivera__1>
         <http://dbpedia.org/ontology/endYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1954"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Ryan_Giggs__6>
-        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Amancio_Amaro_Varela__0>
-        <http://dbpedia.org/ontology/endYear>  "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
         <http://dbpedia.org/ontology/startYear>  "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Alfréd_Hajós__1>
-        <http://dbpedia.org/ontology/endYear>  "1902"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1902"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Adolfo_Baloncieri__0>
-        <http://dbpedia.org/ontology/endYear>  "1925"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1919"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__13>
-        <http://dbpedia.org/ontology/endYear>  "2016"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__6>
-        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Enzo_Bearzot__0>
-        <http://dbpedia.org/ontology/endYear>  "1948"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1946"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Alex_Ferguson__2>
-        <http://dbpedia.org/ontology/endYear>  "1967"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1964"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gianni_Rivera__2>
-        <http://dbpedia.org/ontology/endYear>  "1979"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Fredrik_Ljungberg__4>
-        <http://dbpedia.org/ontology/endYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Ryan_Giggs__0>
-        <http://dbpedia.org/ontology/endYear>  "1987"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1985"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Gabriel_Batistuta__4>
-        <http://dbpedia.org/ontology/endYear>  "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham__0>
-        <http://dbpedia.org/ontology/endYear>  "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__12>
-        <http://dbpedia.org/ontology/endYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Danny_Graham>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__0> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__6> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__2> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__10> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__9> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__13> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__7> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__3> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__5> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__11> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__8> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__4> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Danny_Graham__12> .
-
-<http://it.dbpedia.org/resource/František_Plánička__0>
-        <http://dbpedia.org/ontology/endYear>  "1939"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1923"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/David_Beckham__5>
-        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Marlon_King__7>
-        <http://dbpedia.org/ontology/endYear>  "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Piet_Kraak>
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Piet_Kraak__1> ;
-        <http://dbpedia.org/ontology/careerStation>  <http://it.dbpedia.org/resource/Piet_Kraak__0> .
-
-<http://it.dbpedia.org/resource/Marcus_Gayle__4>
-        <http://dbpedia.org/ontology/endYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Zinédine_Zidane__3>
-        <http://dbpedia.org/ontology/endYear>  "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "2001"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Erasmo_Iacovone__1>
-        <http://dbpedia.org/ontology/endYear>  "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1972"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-
-<http://it.dbpedia.org/resource/Enzo_Bearzot__5>
-        <http://dbpedia.org/ontology/endYear>  "1964"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://dbpedia.org/ontology/startYear>  "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
