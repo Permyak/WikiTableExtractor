@@ -1,0 +1,166 @@
+<http://dbpedia.org/resource/1960_Copa_Libertadores_Finals_1>
+        <http://dbpedia.org/ontology/attendance>  "35,000"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estadio_Manuel_Ferreira> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/C.A._Peñarol> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Club_Olimpia> ;
+        <http://dbpedia.org/ontology/date>  "June 19, 1960"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "1–1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/José_Luis_Praddaude> .
+
+<http://dbpedia.org/resource/2010_CAF_Confederation_Cup_Final_1>
+        <http://dbpedia.org/ontology/time>  " 18:00 UTC+1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Stade_Taïeb_Mhiri> ;
+        <http://dbpedia.org/ontology/report>  "http://www.cafonline.com/competition/confederation-cup_2010/news/7288-fus-rabat-upset-sfaxien-to-caf-confederation-cup-title.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/FUS_de_Rabat> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/CS_Sfaxien> ;
+        <http://dbpedia.org/ontology/date>  "4 December 2010"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "2 – 3"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Jerome_Damon> .
+
+<http://dbpedia.org/resource/UEFA_Euro_1976_Final>
+        <http://dbpedia.org/ontology/attendance>  "30,790"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 20:15 Central European Time"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Crvena_Zvezda_Stadium> ;
+        <http://dbpedia.org/ontology/report>  "http://www.uefa.com/uefaeuro/season=1976/matches/round=193/match=3693/index.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/FRG> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/TCH> ;
+        <http://dbpedia.org/ontology/date>  "20 June 1976"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "2–2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Sergio_Gonella> .
+
+<http://dbpedia.org/resource/UEFA_Euro_1988_Final>
+        <http://dbpedia.org/ontology/attendance>  "72,308"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 15:30"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Olympic_Stadium_(Munich)> ;
+        <http://dbpedia.org/ontology/report>  "http://www.uefa.com/uefaeuro/season=1988/matches/round=210/match=22/index.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/NED> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/URS> ;
+        <http://dbpedia.org/ontology/date>  "1988-06-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "0–2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Michel_Vautrot> .
+
+<http://dbpedia.org/resource/2009_Recopa_Sudamericana_1>
+        <http://dbpedia.org/ontology/time>  " 19:50 ( UTC-5 )"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estadio_de_Liga_Deportiva_Universitaria> ;
+        <http://dbpedia.org/ontology/report>  "http://www.conmebol.com/competiciones_evento_reporte.jsp?evento=1175&ano=2009&dv=1&flt=A&id=2&slangab=E"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Sport_Club_Internacional> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Liga_Deportiva_Universitaria_de_Quito> ;
+        <http://dbpedia.org/ontology/date>  "July 9, 2009"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "3-0"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Carlos_Chandía> .
+
+<http://dbpedia.org/resource/2006_Recopa_Sudamericana_0>
+        <http://dbpedia.org/ontology/attendance>  "35,426"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 22:00 ( UTC-3 )"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estadio_Alberto_J._Armando> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/São_Paulo_FC> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Boca_Juniors> ;
+        <http://dbpedia.org/ontology/date>  "September 7, 2006"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "2-1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Carlos_Amarilla> .
+
+<http://dbpedia.org/resource/2008_Copa_Libertadores_Finals_0>
+        <http://dbpedia.org/ontology/attendance>  "55,359"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 19:50 ( UTC-5 )"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estadio_de_Liga_Deportiva_Universitaria> ;
+        <http://dbpedia.org/ontology/report>  "http://old.conmebol.com/conmeboltest/competiciones_evento_reporte.jsp?evento=1081&ano=2008&dv=6&flt=1&id=137&slangab=E"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Fluminense_Football_Club> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Liga_Deportiva_Universitaria_de_Quito> ;
+        <http://dbpedia.org/ontology/date>  "June 25, 2008"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "4 - 2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  " Carlos Chandía ( Federación de Fútbol de Chile )"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://dbpedia.org/resource/UEFA_Euro_1972_Final>
+        <http://dbpedia.org/ontology/attendance>  "43,437"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 16:00"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Heysel_Stadium> ;
+        <http://dbpedia.org/ontology/report>  "http://www.uefa.com/uefaeuro/season=1972/matches/round=186/match=3838/index.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/FRG> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/URS> ;
+        <http://dbpedia.org/ontology/date>  "1972-06-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "0–3"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Ferdinand_Marschall> .
+
+<http://dbpedia.org/resource/UEFA_Euro_1984_Final>
+        <http://dbpedia.org/ontology/attendance>  "47,368"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 20:00"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Parc_des_Princes> ;
+        <http://dbpedia.org/ontology/report>  "http://www.uefa.com/uefaeuro/season=1984/matches/round=204/match=3463/index.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/ESP> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/FRA> ;
+        <http://dbpedia.org/ontology/date>  "27 June 1984"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "2–0"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Vojtech_Christov> .
+
+<http://dbpedia.org/resource/2008_UEFA_Champions_League_Final>
+        <http://dbpedia.org/ontology/attendance>  "67,310"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 22:45 Moscow Time"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Luzhniki_Stadium> ;
+        <http://dbpedia.org/ontology/report>  "http://en.archive.uefa.com/competitions/ucl/history/season=2008/round=15109/match=301604/report=rp.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Chelsea_F.C.> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Manchester_United_F.C.> ;
+        <http://dbpedia.org/ontology/date>  "21 May 2008"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "1–1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Ľuboš_Micheľ> .
+
+<http://dbpedia.org/resource/2006_Recopa_Sudamericana_1>
+        <http://dbpedia.org/ontology/attendance>  "19,861"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 22:00 ( UTC-3 )"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estádio_do_Morumbi> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Boca_Juniors> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/São_Paulo_FC> ;
+        <http://dbpedia.org/ontology/date>  "September 14, 2006"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "2-2"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Óscar_Ruiz> .
+
+<http://dbpedia.org/resource/2010_CAF_Confederation_Cup_Final_0>
+        <http://dbpedia.org/ontology/time>  " 18:30 UTC±0"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Prince_Moulay_Abdellah_Stadium> ;
+        <http://dbpedia.org/ontology/report>  "http://www.cafonline.com/competition/confederation-cup_2010/news/7246-fus-rabat-sfaxien-share-spoils.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/CS_Sfaxien> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/FUS_de_Rabat> ;
+        <http://dbpedia.org/ontology/date>  "28 November 2010"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "0 – 0"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Mohamed_Benouza> .
+
+<http://dbpedia.org/resource/2008_Copa_Libertadores_Finals_1>
+        <http://dbpedia.org/ontology/attendance>  "86,027"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 21:50 ( UTC-3 )"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estádio_do_Maracanã> ;
+        <http://dbpedia.org/ontology/report>  "http://old.conmebol.com/conmeboltest/competiciones_evento_reporte.jsp?evento=1081&ano=2008&dv=6&flt=1&id=138&slangab=E"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Liga_Deportiva_Universitaria_de_Quito> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Fluminense_Football_Club> ;
+        <http://dbpedia.org/ontology/date>  "July 2, 2008"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "3 - 1 ("^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Héctor_Baldassi> .
+
+<http://dbpedia.org/resource/2009_Recopa_Sudamericana_0>
+        <http://dbpedia.org/ontology/attendance>  "30,284"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 21:50 ( UTC-3 )"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estádio_Beira-Rio> ;
+        <http://dbpedia.org/ontology/report>  "http://www.conmebol.com/competiciones_evento_reporte.jsp?evento=1175&ano=2009&dv=1&flt=A&id=1&slangab=E"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Liga_Deportiva_Universitaria_de_Quito> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/Sport_Club_Internacional> ;
+        <http://dbpedia.org/ontology/date>  "June 25, 2009"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "0-1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Juan_Soto> .
+
+<http://dbpedia.org/resource/1960_Copa_Libertadores_Finals_0>
+        <http://dbpedia.org/ontology/attendance>  "44,690"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Estadio_Centenario> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Club_Olimpia> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/C.A._Peñarol> ;
+        <http://dbpedia.org/ontology/date>  "June 12, 1960"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "1–0"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Carlos_Robles> .
+
+<http://dbpedia.org/resource/2007_UEFA_Champions_League_Final>
+        <http://dbpedia.org/ontology/attendance>  "74,000"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/time>  " 21:45 Eastern European Summer Time"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/stadium>  <http://dbpedia.org/resource/Olympic_Stadium_(Athens)> ;
+        <http://dbpedia.org/ontology/report>  "http://www.uefa.com/uefachampionsleague/season=2006/matches/round=2361/match=300099/postmatch/report/index.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/teamAway>  <http://dbpedia.org/resource/Liverpool_F.C.> ;
+        <http://dbpedia.org/ontology/teamHome>  <http://dbpedia.org/resource/A.C._Milan> ;
+        <http://dbpedia.org/ontology/date>  "23 May 2007"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        <http://dbpedia.org/ontology/score>  "2–1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://dbpedia.org/ontology/referee>  <http://dbpedia.org/resource/Herbert_Fandel> .

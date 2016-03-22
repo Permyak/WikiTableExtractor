@@ -6,7 +6,7 @@ import main.parser._
 
 object WikiTemplateExtractor extends Logger {
   val nameSpace = "http://dbpedia.org/ontology"
-  val resoursePrefix = "http://it.dbpedia.org/resource/"
+  val resoursePrefix = "http://dbpedia.org/resource/"
   val ontology = new Ontology(nameSpace, resoursePrefix)
 
   def extractSportivoTemplate() = {

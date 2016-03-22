@@ -155,21 +155,118 @@ object Parser extends Logger{
 
     val jsonMatchesSummary = parse(matchSummary) \\ "result"
 
-    jsonMatchesSummary.children.foreach(f = matchSummary => {
+    jsonMatchesSummary.children.foreach(matchSummary => {
       if (matchSummary.children(1).extract[String] == "football box") {
         println(matchSummary.children(2))
-        (matchSummary.children(2).extract[Map[String, Any]] ).foreach(record => {
+        var currentMatchName = matchName;
+        if (jsonMatchesSummary.children.length > 1){
+          currentMatchName += "_" + jsonMatchesSummary.children.indexOf(matchSummary)
+        }
+
+        (matchSummary.children(2).extract[Map[String, JArray]] ).foreach(record => {
           record match {
-            case ("date", _) => println("date parsing")
+            case ("date", value) =>
+              // TODO: Add date parsing.
+              ontology.AddLiteral(currentMatchName, "date", value.children(0).extract[String], XSDDatatype.XSDdate)
+            case("time", value) =>
+              var time = ""
+              value.children.foreach(timePart => {
+                if (timePart.isInstanceOf[JString]) {
+                  time += " " + timePart.extract[String]
+                }
+                else{
+                  time += " " + timePart.children(1).extract[String]
+                }
+              })
+              ontology.AddLiteral(currentMatchName, "time", time, XSDDatatype.XSDstring)
+            case("score", value) => ontology.AddLiteral(currentMatchName, "score", value(0).extract[String].replace("&ndash;", "-"), XSDDatatype.XSDstring)
+            case("attendance", value) =>
+              val attendance = attendanceToString(value)
+              if (attendance != "") {
+                ontology.AddLiteral(currentMatchName, "attendance", attendance, XSDDatatype.XSDstring)
+              }
+            case("team1", value) =>
+              val team = teamToString(value)
+              if (team != "") {
+                ontology.AddProperty(currentMatchName, "teamHome", team)
+              }
+            case("team2", value) =>
+              val team = teamToString(value)
+              if (team != "") {
+                ontology.AddProperty(currentMatchName, "teamAway", team)
+              }
+            case("referee", value) => AddRefereeToOntology(value, currentMatchName)
+            case("stadium", value) => AddStadiumToOntology(value, currentMatchName)
+            case("report", value) => AddReportToOntology(value, currentMatchName)
             case (key, _) => println(s"Error. Key $key not found")
           }
         })
-        println(matchSummary.children(2).extract[Map[String, Any]])
       }
     })
   }
 
   def GetMatchNameFromResourseUrl(resourceUrl:String):String = {
     resourceUrl.replace("http://dbpedia.org/resource/", "")
+  }
+
+  def attendanceToString(value: JArray):String = {
+    implicit val formats = DefaultFormats
+    var attendance = ""
+    if (value != null){
+      attendance += value(0).asInstanceOf[JString].extract[String]
+    }
+    attendance
+  }
+
+  def teamToString(value: JArray):String = {
+    implicit val formats = DefaultFormats
+    var team = ""
+    if (value(0).children.length > 0 && value(0).children(0).extract[String] == "reference") {
+      team = value(0).children(1).extract[String]
+    }
+    else if (value.arr.length > 1 && value(1).children.length > 0 && value(1).children(0).extract[String] == "reference") {
+      team = value(1).children(1).extract[String]
+    }
+    else if (value(0).children.length > 0 && value(0).children(0).extract[String] == "template"){
+      team = value(0).children(2).children(0).children(0).extract[String]
+    }
+    team
+  }
+
+  def AddRefereeToOntology(value: JArray, matchName: String) = {
+    implicit val formats = DefaultFormats
+    var referee = ""
+    if (value(0).children.length > 0 && value(0).children(0).extract[String] == "reference") {
+      referee = value(0).children(1).extract[String]
+      ontology.AddProperty(matchName, "referee", referee)
+
+    }
+    else{
+      value.children.foreach(refPart => {
+        if (refPart.isInstanceOf[JString]) {
+          referee += " " + refPart.extract[String]
+        }
+        else{
+          referee += " " + refPart.children(1).extract[String]
+        }
+      })
+      ontology.AddLiteral(matchName, "referee", referee, XSDDatatype.XSDstring)
+    }
+  }
+
+  def AddStadiumToOntology(value: JArray, matchName: String) = {
+    implicit val formats = DefaultFormats
+    if (value(0).children.length > 0 && value(0).children(0).extract[String] == "reference") {
+      val stadium = value(0).children(1).extract[String]
+      ontology.AddProperty(matchName, "stadium", stadium)
+    }
+  }
+
+  def AddReportToOntology(value: JArray, matchName: String) = {
+    implicit val formats = DefaultFormats
+    if (value != null && value(0).children.length > 0 && value(0).children(0).extract[String] == "link") {
+      val report = value(0).children(1).extract[String]
+      ontology.AddLiteral(matchName, "report", report, XSDDatatype.XSDstring)
+    }
   }
 }

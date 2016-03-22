@@ -14,8 +14,10 @@ class Ontology(namespace:String, resoursePrefix:String) {
   var model = ModelFactory.createDefaultModel()
 
   def AddProperty(fromResourse:String, property:String, toResourse:String) = {
-    val playerOntologyResourse = model.getResource(resoursePrefix + fromResourse)
-    val playerOntologyResourse2 = model.getResource(resoursePrefix + toResourse)
+    val fromResName = resoursePrefix + fromResourse.replace(" ", "_")
+    val toResName = resoursePrefix + toResourse.replace(" ", "_")
+    val playerOntologyResourse = model.getResource(fromResName)
+    val playerOntologyResourse2 = model.getResource(toResName)
     val prop = model.getProperty(s"$namespace/$property")
 
     playerOntologyResourse.addProperty(prop, playerOntologyResourse2)
