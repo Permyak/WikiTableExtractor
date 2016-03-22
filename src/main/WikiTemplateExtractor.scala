@@ -21,7 +21,16 @@ object WikiTemplateExtractor extends Logger {
     ontology.WriteToFile("graph.ttl")
   }
 
+  def extractFootballBoxTemplate() = {
+    val max =20
+    val limit = 10
+
+    (0 to max by limit) foreach (fromIndex => Parser.ParseDataForMatchesWithIndexes(fromIndex, limit, max))
+
+    ontology.WriteToFile("graph.ttl")
+  }
+
   def main(args: Array[String]): Unit = {
-    extractSportivoTemplate();
+    extractFootballBoxTemplate();
   }
 }

@@ -4,6 +4,7 @@ import com.hp.hpl.jena.datatypes.xsd.XSDDatatype
 import main.loader.{JSONpediaLoader, DBpediaLoader}
 import main.WikiTemplateExtractor.ontology
 import main.logger.Logger
+import org.json4s.JsonAST.JValue
 
 import org.json4s._
 import org.json4s.native.JsonMethods._
@@ -58,7 +59,7 @@ object Parser extends Logger{
                     }
                     OFFSET $fromIndex
                     LIMIT  $boundedLimit"""
-    val JSON = DBpediaLoader.GetDBpediaSparqlSelect(select).mkString
+    val JSON = DBpediaLoader.GetItDBpediaSparqlSelect(select).mkString
     val playersURI = parse(JSON) \\ "value"
     playersURI.children.foreach(ParseDataForPlayer(_))
   }
@@ -68,7 +69,7 @@ object Parser extends Logger{
                     where{
                     ?s a <http://dbpedia.org/ontology/SoccerPlayer>.
                     ?s <http://it.dbpedia.org/property/wikiPageUsesTemplate> $templateURI}"""
-    val JSON = DBpediaLoader.GetDBpediaSparqlSelect(select)
+    val JSON = DBpediaLoader.GetItDBpediaSparqlSelect(select)
     JSON.mkString
   }
 
@@ -128,5 +129,47 @@ object Parser extends Logger{
       case _ =>
     }
     elementType == 1
+  }
+
+  def ParseDataForMatchesWithIndexes(fromIndex:Int, limit:Int, max:Int) = {
+    var boundedLimit = limit
+    if (fromIndex + limit > max){
+      boundedLimit = max - fromIndex
+    }
+    val select =s"""select ?s as ?calciatori
+                    where{
+                      ?s a <http://dbpedia.org/ontology/FootballMatch> .
+                    }
+                    OFFSET $fromIndex
+                    LIMIT  $boundedLimit"""
+    val JSON = DBpediaLoader.GetDBpediaSparqlSelect(select).mkString
+    val matchesURI = parse(JSON) \\ "value"
+    matchesURI.children.foreach(ParseDataForMatches(_))
+  }
+
+  def ParseDataForMatches(matchResource:JValue) = {
+    println("Match " + matchResource + " are parsing.")
+    implicit val formats = DefaultFormats
+    val matchName = GetMatchNameFromResourseUrl(matchResource.extract[String])
+    val matchSummary = JSONpediaLoader.GetDataForMatch(matchName, "name:football box,@type:template").mkString
+
+    val jsonMatchesSummary = parse(matchSummary) \\ "result"
+
+    jsonMatchesSummary.children.foreach(f = matchSummary => {
+      if (matchSummary.children(1).extract[String] == "football box") {
+        println(matchSummary.children(2))
+        (matchSummary.children(2).extract[Map[String, Any]] ).foreach(record => {
+          record match {
+            case ("date", _) => println("date parsing")
+            case (key, _) => println(s"Error. Key $key not found")
+          }
+        })
+        println(matchSummary.children(2).extract[Map[String, Any]])
+      }
+    })
+  }
+
+  def GetMatchNameFromResourseUrl(resourceUrl:String):String = {
+    resourceUrl.replace("http://dbpedia.org/resource/", "")
   }
 }
