@@ -11,8 +11,14 @@ object JSONpediaLoader {
   }
 
   def GetDataForMatch(matchName: String, filter:String):BufferedSource = {
-    val encodedPlayerName = java.net.URLEncoder.encode(matchName, "utf-8")
-    val encodedFilter = java.net.URLEncoder.encode(filter, "utf-8")
-    Source.fromURL(s"http://jsonpedia.org/annotate/resource/json/en:$encodedPlayerName?filter=$encodedFilter&procs=-Extractors,Structure")
+    try {
+      val encodedPlayerName = java.net.URLEncoder.encode(matchName, "utf-8")
+      val encodedFilter = java.net.URLEncoder.encode(filter, "utf-8")
+      Source.fromURL(s"http://jsonpedia.org/annotate/resource/json/en:$encodedPlayerName?filter=$encodedFilter&procs=-Extractors,Structure")
+    }
+    catch {
+      case e: Exception => println (s"Can't load info about $matchName")
+      null
+    }
   }
 }

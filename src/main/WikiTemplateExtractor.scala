@@ -11,21 +11,21 @@ object WikiTemplateExtractor extends Logger {
 
   def extractSportivoTemplate() = {
     val template = "<http://it.dbpedia.org/resource/Template:Sportivo>"
-    val playersForTemplateCount = Parser.GetPlayersCountFromJSON(Parser.GetPlayersCountForTemplate(template))
+    val playersForTemplateCount = PlayersParser.GetPlayersCountFromJSON(PlayersParser.GetPlayersCountForTemplate(template))
 
     val max =20
     val limit = 10
 
-    (0 to max by limit) foreach (fromIndex => Parser.ParseDataForPlayersWithIndexes(fromIndex, limit, max, template))
+    (0 to max by limit) foreach (fromIndex => PlayersParser.ParseDataForPlayersWithIndexes(fromIndex, limit, max, template))
 
     ontology.WriteToFile("graph.ttl")
   }
 
   def extractFootballBoxTemplate() = {
-    val max =20
+    val max = MatchesParser.GetFootballMatchesCount()
     val limit = 10
 
-    (0 to max by limit) foreach (fromIndex => Parser.ParseDataForMatchesWithIndexes(fromIndex, limit, max))
+    (0 to max by limit) foreach (fromIndex => MatchesParser.ParseDataForMatchesWithIndexes(fromIndex, limit, max))
 
     ontology.WriteToFile("graph.ttl")
   }
